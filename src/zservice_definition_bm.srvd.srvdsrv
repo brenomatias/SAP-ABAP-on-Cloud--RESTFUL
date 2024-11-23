@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition'
+define service ZSERVICE_DEFINITION_BM {
+  expose ZUDEMY_BM_C_CAT_SALES;
+}
