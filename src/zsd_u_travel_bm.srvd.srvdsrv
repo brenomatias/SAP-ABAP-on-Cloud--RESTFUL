@@ -1,0 +1,8 @@
+@EndUserText.label: 'Service def for travel unmanaged sce'
+define service ZSD_U_TRAVEL_BM {
+  expose ZUMANAGED_I_CUST   as travelCustomer;
+  expose ZUMANAGED_I_AGENCY as travelAgency;
+  expose ZUMANAGED_I_TRAVEL as Travel;
+  expose I_Currency;
+  expose I_Country;
+}
