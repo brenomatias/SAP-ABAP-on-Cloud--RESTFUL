@@ -1,0 +1,9 @@
+@EndUserText.label: 'Service definition travel 2'
+define service ZSERVICE_U_TRAVEL_2 {
+  expose ZUMANAGED_C_TRAVEL_2;
+  expose ZUMANAGED_I_CUST     as travelCustomer;
+  expose ZUMANAGED_I_AGENCY   as travelAgency;
+  expose ZUMANAGED_I_TRAVEL   as Travel;
+  expose I_Currency;
+  expose I_Country;
+}
